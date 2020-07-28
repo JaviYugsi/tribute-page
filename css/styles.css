@@ -3,10 +3,10 @@
     border-radius:15px;
   }
   .body{
-    margin-top: 20px;
-    margin-bottom:20px;
-    margin-left:40px;
-    margin-right:40px;
+   width: 80%;
+   height: 80%;
+   text-align: center;
+   margin: 0 auto;
   }
   p{
     font-size:15px;
@@ -39,6 +39,30 @@
   }
   #frase-akira{
     font-size:30px;
+  }
+
+  .img-responsive{
+    width: 100%;
+    height: auto;
+  }
+
+  @media (max-width: 800px){
+    ul {
+      font-size: 16px;
+      font-family:'Bellefair', serif;
+
+    }
+
+    #frase-akira{
+      font-size: 12px;
+    }
+    
+    h1{     
+      font-size:25px;     
+    }
+    h3{
+      font-size:15px;     
+    }
   }
   
   
